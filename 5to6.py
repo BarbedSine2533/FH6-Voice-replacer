@@ -4,7 +4,7 @@ import os, shutil
 basedir=os.getcwd()
 #5N to N
 os.mkdir('NewN')
-for i in range(194,253):
+for i in range(193,253):
     shutil.copy(os.path.join(basedir,f'FH5N\\sound_{i}.wav'),os.path.join(basedir,f'NewN\\sound_{i-109}.wav'))
     print(i)
 for i in range(253,312):
